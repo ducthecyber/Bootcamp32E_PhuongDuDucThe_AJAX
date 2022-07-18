@@ -1,0 +1,130 @@
+* {
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header_content {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 50px;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+nav ul li {
+    padding: 20px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.header_content ul li a {
+    color: #ced4da;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:hover span {
+    color: #fff;
+}
+
+.header_content nav li select {
+    background-color: transparent;
+    color: #fff;
+    border-color: transparent;
+}
+
+.header_content nav li select option {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ced4da;
+}
+
+.header_content button {
+    margin-left: 20px;
+    color: green;
+    font-weight: 500px;
+    padding: 5px 20px;
+    border: 2px solid green;
+    border-radius: 0.25rem;
+    background-color: transparent;
+}
+
+.header_content button:hover {
+    background-color: #ced4da;
+    color: #000;
+}
+
+.header_content input {
+    margin-left: 200px;
+}
+
+section .container {
+    width: 70%;
+}
+
+section.page_create .container p {
+    margin-top: 20px;
+    border-top: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    line-height: 50px;
+}
+
+.product_info .info_title p {
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 10px;
+    border-radius: 0.25rem 0.25rem 0 0;
+    margin-bottom: 0;
+}
+
+.product_info .container .body {
+    border: 1px solid #ced4da;
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.product_info .info_table {
+    padding: 0.5rem 0.5rem;
+}
+
+.product_info .button {
+    padding: 0 0.5rem 0.5rem;
+}
+
+.product_info .bottom {
+    border-top: 1px solid #ced4da;
+    padding-top: 0.5rem;
+}
+
+.product_table .container thead {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.product_table .container th{
+    color: yellow;
+    font-weight: 100;
+}
+
