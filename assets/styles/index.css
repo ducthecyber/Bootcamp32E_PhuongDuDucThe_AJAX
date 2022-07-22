@@ -119,12 +119,32 @@ section.page_create .container p {
     padding-top: 0.5rem;
 }
 
+.table {
+    table-layout: fixed;
+    width: 100%;
+}
+/* https://www.w3schools.com/html/html_table_sizes.asp */
+tr td{
+    overflow: hidden;
+}
+
+td .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .product_table .container thead {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.product_table .container th{
+.product_table .container th {
     color: yellow;
     font-weight: 100;
 }
 
+.product_search .search {
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 0.25rem 0.25rem 0 0;
+}

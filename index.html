@@ -110,20 +110,30 @@
             </div>
         </div>
     </section>
+    <section class="product_search">
+        <div class="container">
+            <div class="search mt-2">
+                <h5>Tìm kiếm sản phẩm</h5>
+                <input type="text" class="form-control" id="searchSanPham" placeholder="Nhập tên sản phẩm cần tìm" />
+                <button class="btn btn-warning mt-2" id="btn_Find">Tìm kiếm</button>
+            </div>
+        </div>
+    </section>
     <section class="product_table">
         <div class="container">
-            <table class="table mt-2">
+            <table class="table mt-2 .w-auto">
                 <thead>
                     <tr>
-                        <th>id</th>
-                        <th>image</th>
-                        <th>name</th>
-                        <th>price</th>
-                        <th width="30%">
+                    <!-- https://www.w3schools.com/html/html_table_sizes.asp -->
+                        <th style="width:10%">id</th>
+                        <th style="width:15%">image</th>
+                        <th style="width:20%">name</th>
+                        <th style="width:10%">price</th>
+                        <th width="20%">
                             description
                         </th>
                         <th>type</th>
-                        <th width="20%">
+                        <th width="15%">
                         </th>
                     </tr>
                 </thead>
@@ -148,6 +158,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"
         integrity="sha512-xIPqqrfvUAc/Cspuj7Bq0UtHNo/5qkdyngx6Vwt+tmbvTLDszzXM0G6c91LXmGrRx8KEPulT+AfOOez+TeVylg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./models/product.js"></script>
     <script src="./controllers/index.js"></script>
 </body>
 

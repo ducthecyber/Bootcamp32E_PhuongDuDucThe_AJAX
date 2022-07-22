@@ -5,4 +5,5 @@ function Product() {
     this.price = '';
     this.img = '';
     this.description = '';
+    this.type = '';
 }
